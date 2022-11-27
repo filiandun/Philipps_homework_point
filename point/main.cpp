@@ -30,7 +30,7 @@ int main()
     std::cout << std::endl;
 
     // ФАЙЛЫ
-    // point->save_coordinates_to_file(); // запись в файл
+    point->save_coordinates_to_file(); // запись в файл
     point->read_coordinates_from_file(); // чтение из файла
 
     std::cout << "Координата x: " << point->get_x() << std::endl;
